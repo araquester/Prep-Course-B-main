@@ -17,4 +17,4 @@ logHola2('Martin');
 
 logHola();
 
-// voy por aqui en la clase del miercoles 14 de septiembre
+// voy por aqui en la clase del miercoles 14 de septiembre sigo probando
