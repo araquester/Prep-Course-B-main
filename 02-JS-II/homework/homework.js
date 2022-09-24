@@ -128,15 +128,13 @@ function devolverString(str) {
   function elevarAlCubo(num) {
     // Devuelve el valor de "num" elevado al cubo
     // Tu código:
-    var potencia = num**3;
-    return potencia
+    return Math.pow(num,3)
   }
   
   function elevar(num, exponent) {
     // Devuelve el valor de "num" elevado al exponente dado en "exponent"
     // Tu código:
-    var potencia = num**exponent;
-    return potencia
+    return Math.pow(num,exponent)
   }
   
   function redondearNumero(num) {
@@ -164,7 +162,7 @@ function devolverString(str) {
     //Si el número es negativo, devolver ---> "Es negativo"
     //Si el número es 0, devuelve false
     // Tu código:
-    if(numero>0){
+    if(numero > 0 ){
       return "Es positivo"}
       else if (numero<0){
         return "Es negativo"}
@@ -200,15 +198,13 @@ function devolverString(str) {
   function obtenerAreaRectangulo(alto, ancho) {
     // Retornar el area de un rectángulo teniendo su altura y ancho
     // Tu código:
-    var area = alto*ancho;
-    return area
+    return alto * ancho
   }
   
   function retornarPerimetro(lado) {
     //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
     //Escribe tu código aquí
-    var perim = lado*4;
-    return perim
+    return lado+lado+lado+lado
   }
   
   function areaDelTriangulo(base, altura) {
